@@ -1,28 +1,28 @@
 {
-  "name": "koa-demo",
+  "name": "fast-chat-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "index.js",
+  "repository": "kill8268",
+  "license": "MIT",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.mjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qiangxiazhanling/koa-demo.git"
-  },
-  "author": "kill8268",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qiangxiazhanling/koa-demo/issues"
-  },
-  "homepage": "https://github.com/qiangxiazhanling/koa-demo#readme",
   "dependencies": {
-    "@koa/router": "^8.0.5",
-    "koa": "^2.11.0",
-    "koa-bodyparser": "^4.2.1",
-    "moment": "^2.24.0",
-    "pg": "^7.14.0",
-    "sequelize": "^5.21.3"
+    "@koa/router": "^12.0.0",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.7",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-server-http-proxy": "^0.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-formidable": "^1.0.3",
+    "log4js": "^6.7.1",
+    "mongodb": "^4.13.0",
+    "mysql2": "^2.3.3",
+    "redis": "^4.5.1",
+    "sequelize": "^6.28.0",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
   }
 }
